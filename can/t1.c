@@ -1,0 +1,15 @@
+												 	lcd_com(0x80);
+	lcd_sprint("LI");
+	lcd_com(0x84);
+	lcd_sprint("RI");
+	lcd_com(0x88);
+	lcd_sprint("WP");
+	lcd_com(0xc0);
+	lcd_sprint("OFF");
+	lcd_com(0xc4);
+	lcd_sprint("OFF");
+	lcd_com(0xc8);
+	lcd_sprint("OFF");	  	lcd_com(0xc0);
+	lcd_sprint("ON ");
+	lcd_com(0xc0);
+	lcd_sprint("OFF");
